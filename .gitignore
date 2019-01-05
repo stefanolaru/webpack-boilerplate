@@ -1,2 +1,3 @@
 node_modules/
 dist/
+webpack-vue-tailwindcss-setup/package-lock.json

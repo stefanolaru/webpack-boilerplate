@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+	
+	<!-- development version, includes helpful console warnings -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+
+</head>
+<body class="h-screen bg-grey-light">
+	<div id="app" class="container flex mx-auto mt-8">
+		<div class="flex-1">
+			<test-component></test-component>
+		</div>
+	</div>
+	<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>
